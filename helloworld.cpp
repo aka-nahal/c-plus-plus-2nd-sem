@@ -3,12 +3,12 @@ using namespace std;
 
 int main(){
 
-    cout<<"Hello World";
+    cout<<"Hello World"<<endl;;
 
     int a;
     cin>>a;
 
-    cout<<a;
+    cout<<a<<endl;;
 
     return 0;
 }
