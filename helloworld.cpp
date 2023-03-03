@@ -8,7 +8,7 @@ int main(){
     int a;
     cin>>a; // ">>" extraction operator
 
-    cout<<a<<endl;;
+    cout<<a<<endl;
 
     return 0;
 }
