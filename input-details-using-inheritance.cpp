@@ -3,76 +3,78 @@ using namespace std;
 
 class student
 {
-    public:
-    int uid;
+public:
+    string uid;
 
     void getNumber()
     {
-
-        cout<<"Enter your UID"<<endl;
-        cin>>uid;
+        cout << "Enter your UID: ";
+        cin >> uid;
     }
-    void putNumber(){
 
-        cout<<"UID:- "<<uid;
-
-    }
-};
-
-class test:virtual public student {
-
-    public:
-    int sub1,sub2;
-
-    void getMarks(){
-
-        cout<<"Enter your marks :- "<<endl;
-        cin>>sub1>>sub2;
-
-    }
-    
-    void putMarks(){
-
-        cout<<" Marks :- "<<sub1<<sub2<<endl;
+    void putNumber()
+    {
+        cout << "UID: " << uid << endl;
     }
 };
 
-class sports:virtual public student {
-    public:
+class test : public student
+{
+public:
+    int sub1, sub2;
+
+    void getMarks()
+    {
+        cout << "Enter your marks: ";
+        cin >> sub1 >> sub2;
+    }
+
+    void putMarks()
+    {
+        cout << "Marks: " << sub1 << " " << sub2 << endl;
+    }
+};
+
+class sports : public student
+{
+public:
     int score;
 
-    void putScore(){
-
-        cout<<"Enter your score:-"<<endl;
-        cin>>score;
+    void putScore()
+    {
+        cout << "Enter your score: ";
+        cin >> score;
     }
 
-
-    void getScore(){
-
-        cout<<"Score :-"<<score<<endl;
+    void getScore()
+    {
+        cout << "Score: " << score << endl;
     }
 };
 
-class result:public test,public sports {
-    public:
+class result : public test, public sports
+{
+public:
     int total;
 
-    void display(){
+    void display()
+    {
         total = sub1 + sub2 + score;
 
         putNumber();
         putMarks();
         putScore();
 
-        cout<<"Total is "<<total<<endl;
+        cout << "Total: " << total << endl;
     }
 };
 
-int main(){
+int main()
+{
     result r;
     r.getNumber();
     r.getMarks();
     r.getScore();
     r.display();
+    return 0;
 }
