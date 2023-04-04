@@ -12,7 +12,7 @@ class student
         cout<<"Enter your UID"<<endl;
         cin>>uid;
     }
-    void putNumbers(){
+    void putNumber(){
 
         cout<<"UID:- "<<uid;
 
