@@ -19,7 +19,7 @@ class student
     }
 };
 
-class test:virtual student {
+class test:virtual public student {
 
     public:
     int sub1,sub2;
@@ -37,7 +37,7 @@ class test:virtual student {
     }
 };
 
-class sports:virtual student {
+class sports:virtual public student {
     public:
     int score;
 
