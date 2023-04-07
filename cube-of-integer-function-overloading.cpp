@@ -35,4 +35,10 @@ return y*y*y;
 --> Binary operator overloading.
 --> What is the difference between function overloading and function overwriting?
 --> Inheritance.
+--> What is virtual function.
+
+* WAP:-
+--> Function , Constructor Overloading.
+--> Functing Overwriting.
+--> Virtual Fucntion
 */
