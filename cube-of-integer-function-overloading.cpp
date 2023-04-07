@@ -34,4 +34,5 @@ return y*y*y;
 --> What is static and dynamic binding?
 --> Binary operator overloading.
 --> What is the difference between function overloading and function overwriting?
+--> Inheritance
 */
