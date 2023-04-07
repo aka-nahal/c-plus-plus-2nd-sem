@@ -3,20 +3,20 @@ using namespace std;
 
 class Base {
    public:
-    void print() {
-        cout << "Base Function" << endl;
+    void hello() {
+        cout << "Random" << endl;
     }
 };
 
 class Derived : public Base {
    public:
-    void print() {
-        cout << "Derived Function" << endl;
+    void hello() {
+        cout << "random text" << endl;
     }
 };
 
 int main() {
     Derived derived1;
-    derived1.print();
+    derived1.hello();
     return 0;
 }
