@@ -27,3 +27,11 @@ float cube(float y){
 return y*y*y;
 
 }
+
+/* Questions :- 
+--> What is Pointer?
+--> Explain 'this' pointer.
+--> What is static and dynamic binding?
+--> Binary operator overloading.
+--> What is the difference between function overloading and function overwriting?
+*/
