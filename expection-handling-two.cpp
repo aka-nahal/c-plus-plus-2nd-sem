@@ -20,7 +20,7 @@ int main(){
     }
 
     catch(char c){
-        cout<<"character expection caught"<<endl;
+        cout<<"character expection caught"<<endl;;
 
     }
 
