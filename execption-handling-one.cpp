@@ -1,3 +1,4 @@
+// W.A.P to handle expections using try,throw and catch
 #include<iostream>
 using namespace std;
 
@@ -13,9 +14,9 @@ try {
 
      throw b;
 }
-c = a/b;
 
-    cout<<"Answer is "<<c;
+    c = a/b;
+    cout<<"Answer is "<<c<<endl;;
 
 
 }catch(int d)
